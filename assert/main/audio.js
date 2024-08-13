@@ -31,13 +31,13 @@ let audio_Z = document.getElementById("letter-z");
 
 // storing the audio in a function 
 let audioFunction_1 = () => {
-    let audio = new Audio("assert/audio/A-Z/Letter-A.mp3");
+    let audio = new Audio("assert/audio/A-Z/letter-A.mp3");
     audio.play();
 }
 audio_A.addEventListener("click", audioFunction_1);
 
 let audioFunction_2 = () =>{
-    let audio_1 = new Audio("assert/audio/A-Z/Letter-B.mp3");
+    let audio_1 = new Audio("assert/audio/A-Z/letter-B.mp3");
     audio_1.play();
 }
 audio_B.addEventListener("click", audioFunction_2);

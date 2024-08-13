@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    position: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: orangered;
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-weight: 700;
+    margin-left: 90px;
+    background: orange;
+    border-radius: 10px 20px;
+}
+.navbar-brand{
+    padding: 10px;
+}
+.navbar .navbar-brand:hover{
+    cursor: pointer;
+    color: #fff;
+    animation: "read";
+    
+}
+@media (max-width: 992px){
+    .navbar .navbar-brand{
+        margin-left: 0;
+    }
+}
+
+.navbar .navbar-toggler{
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar .navbar-nav{
+    padding-right: 90px;
+}
+.nav-link.active{
+    color: #fff !important;
+    background: #000 !important;
+    border-radius: 10px 20px !important;
+}
+.navbar .nav-item .nav-link{
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+.nav-link:hover{
+    transform: scale(0.9);
+    color: #000;
+    transition: all .3s ease-in;
+    background:#000;
+    border-radius: 10px 20px;
+}
+@media (max-width: 992px) {
+    .navbar .navbar-nav{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+#bars{
+    color: #fff;
+    font-size: 2rem;
+}
+#x-mark{
+    display: none;
+    font-size: 2rem;
+    color: #fff;
+    top: 6px;
+    
+}
+
+
+/* end of the navbar section */
+
+
+/* big hero section */
+.carousel-inner .carousel-item img{
+    color: #000;
+    opacity: 0.5;
+}
+
+.carousel-inner .carousel-item p{
+    color: #000;
+    font-weight: 500;
+}
+.carousel-inner .carousel-item h5{
+    color: orangered;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.carousel-inner .carousel-item .btn{
+    background: orangered;
+    color: #fff;
+}
+
+/* Welcome page  */
+.page-title .title{
+    color: orangered;
+    font-weight: 600;
+}
+
+/* ABC styling start */
+
+.letters{
+    border-radius: 20px;
+    cursor: pointer;
+}
+.letters h1{
+    font-size: 4rem;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.letters .btn{
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 5px;
+    background: #fff;
+}
+.letters .btn:hover{
+    color: #fff;
+    background: orangered;
+}
+
+/* numbers */
+.numbers h1{
+    font-size: 27px;
+    font-weight: 700;
+    color: orangered;
+}
+.numbers .btn:hover{
+    color: #fff;
+    background: orangered;
+}
+
+/* Glossy section styling */
+.glossy-item{
+    background: orangered;
+    border-radius: 10px 50px;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    filter: drop-shadow(4px 9px 10px  #000);
+}
+
+.glossy-item .icon i{
+    color: #fff;
+    font-size: 3.2rem;
+    background-color: #000;
+    border-radius: 40px;
+    padding: 25px;
+}
+
+.glossy-item .title h3{
+    margin-top: 10px;
+    text-transform:uppercase;
+    font-weight: 600;
+}
+.glossy-item .btn{
+    color: #fff;
+    background: #000;
+}
+
+.glossy-item .btn:hover{
+    color: #000;
+    background:#fff;
+}
+
+/* Translation section section */
+.input{
+    padding: 10px;
+    width: 300px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    /* background: orangered;     */
+}
+.translator .btn{
+    background: orangered;
+    color: #fff;
+    padding: 4px;
+    width: 150px;
+}
+.translator .btn:hover{
+    background: orangered;
+    color: #fff;
+    transform: scale(1.1);
+    transition: all .5s ease-in;
+}
+.translator .output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.translator .output .result{
+    color: #000;
+}
+
+.translator .output p{
+    font-size: 1.2rem;
+    /* margin-right: 160px; */
+    font-weight: 600;
+    color: orangered;    
+}
+.translator .output button{
+    cursor: pointer;
+    font-size: 1.1rem;
+    border: none;
+    background: none;
+    color: orangered;
+    display: none;
+}
+
+/* Help section */
+.help-section{
+    padding-bottom: 100px;
+}
+
+.help-title{
+    color: #fff;
+}
+.help-input{
+    margin-top: 10px;
+}
+.help-input input{
+    padding: 6px;
+    border-radius: 5px;
+    width: 250px;
+    border: none;
+    outline: none;
+
+}
+.help-input h6{
+    color: orangered;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.help-input button{
+    background: orangered;
+    color: #fff;
+    border: none;
+}
+.help-input button:hover{
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .5s ease-in;
+    background: orangered;
+}
+
+/* style part of speech */
+.pospeech h5{
+    color: orangered;
+}
+
+.pospeech h4{
+    font-weight: 600;
+    cursor: pointer;
+}
+.pospeech .fa-solid{
+    color: orangered;
+    /* font-weight: 400; */
+}
+.pospeech .fa-solid:hover{
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* Object section for styling */
+.object-card{
+    background: orangered;
+    color: #fff;
+    border-radius: 5px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.object-card .object-img img{
+    border-radius: 10px;
+}
+.object-card .object-name h5{
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+}
+.object-card .object-audio{
+    font-weight: 600;
+    background: orange;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+.object-card .object-audio .btn{
+    color: #fff;
+    padding: 0px;
+    font-weight: 600;
+    box-shadow: none;
+    border: none;
+}
+
+/* history page  styling */
+.history-img img{
+    margin: 0;
+    border-radius: 30px;
+}
+
+.history h5{
+    text-align: center;
+    color: orangered;
+    font-size: 1.2rem;
+}
+
+/* history page styling ends */
+
+
+
+
+/* Dialog section styling */
+.greeting .icon-v{
+    color: orangered;
+    cursor: pointer;
+}
+
+.greeting .icon-v:hover{
+    color: orange;
+}
+
+.greeting p b{
+    color: orangered;
+
+}
+
+.salutation h4 .icon-v{
+    color: orangered;
+    cursor: pointer;
+}
+
+.salutation h4 .icon-v:hover{
+    color: orange;
+}
+
+/* End of Dialog section styling */
+
+/* char styling */
+.char-card{
+    background: orangered;
+    color: white;
+    margin-bottom: 12px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.char-name h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    padding-top: 10px;
+    font-weight: 900;
+    padding-bottom: 0px;
+    margin: 0px;
+    background: #ff9602;
+    border-radius: 16px 16px 16px 16px;
+}
+
+.char-audio .btn{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section of the website */
+.footer-fine{
+    background: orangered;
+    padding-top: 60px;
+}
+
+.footer-fine .social-media i{
+    color: #fff;
+    font-size: 1.4rem;
+    background: #000;
+    margin: 15px;
+    padding: 13px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.social-media i:hover{
+    transform: scale(0.7);
+    transition: all ease-in-out 0.5s;
+    color: orangered;
+    background: #fff;
+}
+
+.footer-fine .links a{
+    color: #000;
+    text-decoration: none;
+}
+.links a:hover{
+    color: #fff;
+}
+
+.copyright{
+    color: #fff;
+    font-weight: 600;
+}
+
+/* footer section ends here */

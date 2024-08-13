@@ -55,7 +55,7 @@ let audioFunction_4 = () => {
 audio_C.addEventListener("click", audioFunction_4);
 
 let audioFunction_5 = () => {
-    let audio_4 = new Audio("assert/audio/A-Z/Letter-D.mp3");
+    let audio_4 = new Audio("assert/audio/A-Z/letter-D.mp3");
     audio_4.play();
 }
 audio_D.addEventListener("click", audioFunction_5);

@@ -397,8 +397,8 @@ function myFunction(){
     }else if(inputEL.value == "Read"){
         document.getElementById("kpelle").innerHTML = "Lȏno";
     }else if(inputEL.value == "Talk"){
-        document.getElementById("kpelle").innerHTML = " Lȏno";
-
+        document.getElementById("kpelle").innerHTML = " Lȏno"; 
+    } else{
         document.getElementById("kpelle").innerHTML = "Not in the Library! Enter another Word gugyt";
     }
 }

@@ -107,7 +107,11 @@
     background: orangered;
     color: #fff;
 }
+.carousel-inner .carousel-caption p{
+    font-weight: 400;
+    font-size: 1.3rem;
 
+}
 /* Welcome page  */
 .page-title .title{
     color: orangered;
@@ -181,48 +185,104 @@
 }
 
 /* Translation section section */
-.input{
-    padding: 10px;
-    width: 300px;
-    border: 2px solid orangered;
-    border-radius: 5px;
-    /* background: orangered;     */
-}
-.translator .btn{
-    background: orangered;
-    color: #fff;
-    padding: 4px;
-    width: 150px;
-}
-.translator .btn:hover{
-    background: orangered;
-    color: #fff;
-    transform: scale(1.1);
-    transition: all .5s ease-in;
-}
-.translator .output{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.translator .output .result{
-    color: #000;
+.translate{
+    background-color: #000;
 }
 
-.translator .output p{
-    font-size: 1.2rem;
-    /* margin-right: 160px; */
-    font-weight: 600;
-    color: orangered;    
-}
-.translator .output button{
-    cursor: pointer;
-    font-size: 1.1rem;
-    border: none;
-    background: none;
+.translate .translator-head h1{
     color: orangered;
-    display: none;
+    font-weight: 900;
 }
+.translate .translator-head p{
+    color: #fff;
+    padding-bottom: 0px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+/*The Body of the Traslator */
+.translator-main{
+    background-color: #fff;
+    margin-top: -35px;
+    height: auto;
+    filter: drop-shadow(10px 0px 10px);
+    border-radius: 10px 16px 10px 16px;
+}
+
+.translator-main h3{
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.translator-main h3 i{
+    color: orangered;
+}
+
+.translator-main input{
+    width: 350px;
+    border: 3px solid orangered;
+    border-radius: 16px;
+    padding: 5px;
+}
+.translator-main input:focus{
+    border: 3px solid #ff9602;
+    outline: #ff9602;
+    
+}
+.translator-main button{
+    position: absolute;
+    padding: 5px;
+    border-radius: 16px;
+    margin-left: -80px;
+    color: #fff;
+    background-color: orangered;
+    border: 3px solid orangered;
+}
+.translator-main button:hover{
+    transform: scale(0.8);
+    transition: all ease-in 0.3s;
+    background-color: orangered;
+    border-color: orangered;
+}
+.translator-main .result{
+    text-align: left;
+    padding: 16px;
+}
+
+.translator-main .word-head{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.translator-main .word-head i{
+    margin-left: 24px;
+    color: rgb(134, 132, 131);
+    cursor: pointer;
+}
+
+.translator-main .word-head i:hover{
+    transform: scale(0.8);
+    transition: all ease-in-out 0.3s;
+}
+
+.translator-main .word-support{
+    border-left: 12px solid orangered;
+    padding-left:6px
+}
+
+.footer{
+    background-color: #000;
+    color: #000000;
+    margin: 0px;
+    padding: 4px 4px 0px 4px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer p{
+    color: #fff;
+}
+
+/* End of Translator section */
+
 
 /* Help section */
 .help-section{

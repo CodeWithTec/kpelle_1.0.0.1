@@ -51,40 +51,48 @@
         </nav>
           </nav>
     </header>
-    <!-- End of the Navbar section -->
-<!-- translation section  -->
-
-<section class="translator">
-  <div class="container-fluid pt-5">
-    <div class="container pt-4">
-      <div class="row">
-        <div class="page-title text-center">
-          <h1 class="title">Kpelle-Translator</h1>
-          <p>With the kpelle translator you can translate any words in to the kpelle language and learn the sound as well.</p>
+<!-- End of the Navbar section -->
+<div class="container-fluid pt-4 translate">
+  <!-------------head of the translator-------->
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-lg-12 pt-4">
+        <div class="translator-head text-center pb-4">
+          <h1>Kpelle Translator</h1>
+          <p>With the Kpelle translator Our User can learn the name of Words. Just by inputting a English Word in to the Translator you will get the kpelle version of that word intently.</p>
         </div>
       </div>
+    </div>
+  </div>
+</div>
 
-      <div class="row">
-        <div class="translator text-center">
-          <div class="col">
-            <h6>English Words only: <br><b>Capitalize the first Letter of your word!</b></h6>
-            <input class="input" type="text" name="" id="inputfield" placeholder="Enter a English Word"><br>
-          
-            <div class="output pt-2">
-            <p class="result">Result:-</p><span> </span>
-            <p id="kpelle"> </p><button><i class="fa fa-volume-up"></i></button>
-            </div>
-            <button class="btn btn" id="translate">Translate</button>
-          <div class="note">
-            <hr>
-            <p>This site is under a constant update there are addition words</p>
+<!-- Body of the Translator ------ -->
+<div class=" container translator-body">
+  <div class="row">
+    <div class="col">
+      <div class="translator-main">
+        <div class="translator-item text-center pt-3">
+          <h3>English To <i>Kpelle</i></h3>
+          <input type="text" id="input_line" placeholder="Enter your Choice of Word">
+          <button id="trans">Translate</button>
+
+          <!-- Result section  -->
+          <div class="result">
+          <h5 class="word-head" id="output"></h5>
+          <p id="short"><i></i></p>
+          <p class="word-support" id="comment"></p>
+          </div>
+          <div class="footer text-center">
+            <p><x-small><i>This Translator is under constant update in Vs:2.0.0 all Translated words will be Pronounce in Kpelle! </i></x-small></p>
           </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+ </div>
+
+<!-- translation section  -->
 
     <script src="assert/main/translate.js"></script>
     <script src="assert/main/main.js"></script>

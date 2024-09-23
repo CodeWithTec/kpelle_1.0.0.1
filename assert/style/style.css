@@ -223,6 +223,17 @@
     border-radius: 16px;
     padding: 5px;
 }
+@media (max-width: 992px) {
+    .translator-main input{
+       width: 300px;
+    }
+}
+
+@media (max-width: 760px) {
+    .translator-main input{
+       width: 250px;
+    }
+}
 .translator-main input:focus{
     border: 3px solid #ff9602;
     outline: #ff9602;

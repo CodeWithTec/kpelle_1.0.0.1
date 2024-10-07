@@ -233,6 +233,9 @@
     .translator-main input{
        width: 250px;
     }
+    .translator-main button{
+        margin-left: -95;
+    }
 }
 .translator-main input:focus{
     border: 3px solid #ff9602;

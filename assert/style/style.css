@@ -253,6 +253,7 @@
     transition: all ease-in 0.3s;
     background-color: orangered;
     border-color: orangered;
+    outline: none;
 }
 .translator-main .result{
     text-align: left;

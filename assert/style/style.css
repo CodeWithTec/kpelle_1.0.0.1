@@ -250,6 +250,13 @@
     .translator-main button{
         margin-left: -95;
     }
+    .translator-main button:hover{
+        transform: scale(0.5);
+        transition: all ease-in 0.3s;
+        background-color: orangered;
+        border-color: orangered;
+        outline: none;
+    }
 }
 .translator-main input:focus{
     border: 3px solid #ff9602;

@@ -212,8 +212,8 @@
     display: flex;
 }
 #volu{
-    padding-top: 16px;
-    padding-left: 40px;
+    padding-top: 14px;
+    padding-left: 70px;
     color: orangered;
     cursor: pointer;
     visibility: hidden;

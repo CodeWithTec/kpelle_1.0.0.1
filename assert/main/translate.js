@@ -2,6 +2,11 @@
 
 let demoInput = document.getElementById("input_line");
 let timeTranslate = document.getElementById("trans");
+// let speaker = document.getElementById("volu");
+let output_1 = document.getElementById("output");
+
+
+
 
 // The obj of the translator 
 // Considering the function and Trocker 
@@ -227,6 +232,9 @@ function translate_1(){
 
     document.getElementById("output").innerHTML = obj[demoInput.value.toLowerCase()] ?? "Your Search is Not Available.";
     document.getElementById("short").innerHTML = "<small><i>en/kpelle:codewithtec</i></small>";
+
+    // the speech function to pronounce the audio for us 
+    
 
     // this is the supported word lines code 
     if(demoInput.value.toLowerCase() == "leaf"){
@@ -655,3 +663,10 @@ function translate_1(){
 }
 
 timeTranslate.addEventListener("click", translate_1);
+timeTranslate.addEventListener("click", volume_1);
+
+function volume_1(){
+    if(output_1 = String){
+        document.getElementById("volu").style.visibility = 'visible';
+    }
+};

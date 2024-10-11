@@ -35,7 +35,7 @@ function translate_1(){
         "life":"Fúlu-laa",
         "read":"Lôno",
         "city":"Taa-lee",
-        "Room":"lôŋpoi",
+        "room":"lôŋpoi",
         "cry":"Wɔlɔ",
         "happiness":"Lii nԑԑ",
         "good":"pɔni",
@@ -52,7 +52,7 @@ function translate_1(){
         "gift":"Sama sԑŋ",
         "sun":"Fólo",
         "stringer":"ŋɔya",
-        "My people":"Nûai",
+        "my people":"Nûai",
         "people":"Núu-kpune",
         "soup":"ńawôi",
         "crab":"Geêŋ",
@@ -73,7 +73,7 @@ function translate_1(){
         "cup":"kɔpu",
         "drink":"kpele",
         "hours":"soo",
-        "Plantain":"Gôi",
+        "plantain":"Gôi",
         "rep":"kpɔɔi",
         "telephone":"Tóli-ƃó-kɔli",
         "goat":"Ƃoli",
@@ -141,7 +141,7 @@ function translate_1(){
         "dog":"ɣîla",
         "toothbrush":"Lawâ",
         "neuroma":"Féna",
-        "lazard":"Korô",
+        "lizard":"Korô",
         "ant":"Zaza",
         "aix":"Yuĉ",
         "no":"kpa",
@@ -512,7 +512,7 @@ function translate_1(){
     }else if(demoInput.value.toLowerCase() == "oil"){
         document.getElementById("comment").innerHTML = "<b><i>Noun</i></b> <br> Petroleum based liquid used as fuel or lubricant.";
     }else if(demoInput.value.toLowerCase() == "batterball"){
-        document.getElementById("comment").innerHTML = "<b><i>Noun</i></b> <br> Is a plant that is used in the lo.";
+        document.getElementById("comment").innerHTML = "<b><i>Noun</i></b> <br> Is a plant that is used in the local african deach to make soup of diffrent kinds.";
     }else if(demoInput.value.toLowerCase() == "salt"){
         document.getElementById("comment").innerHTML = "<b><i>Noun</i></b> <br> A common substance, chemically consisting mainly of sodium chloride.";
     }else if(demoInput.value.toLowerCase() == "onion"){
@@ -641,6 +641,12 @@ function translate_1(){
         document.getElementById("comment").innerHTML = "<b><i>Noun</i></b> <br> (organic compound, countable) Any of a class of organic compounds such as ethanol containing a hydroxyl functional group (-OH).";
     }else if(demoInput.value.toLowerCase() == "chief"){
         document.getElementById("comment").innerHTML = "<b><i>Noun</i></b> <br> A leader or head of a group of people, organization etc..";
+    }else if(demoInput.value.toLowerCase() == "boy child"){
+        document.getElementById("comment").innerHTML = "<b><i>Noun</i></b> <br> A young male human.";
+    }else if(demoInput.value.toLowerCase() == "lizard"){
+        document.getElementById("comment").innerHTML = "<b><i>Noun</i></b> <br> Any reptile of the order Sqquamata this is not a snike or an amphisbaenian, usually having four legs, external ear openings, movable eyelids and a long slender body and tail.";
+    }else if(demoInput.value.toLowerCase() == "palm wine"){
+        document.getElementById("comment").innerHTML = "<b><i>Noun</i></b> <br> This is a term use to discribe a native wine that is produce out of a palm tree for short. This wine is white in color sweet and frequently seen in Africa. <b>(The African Wine)</b>"
     }
     
     else{

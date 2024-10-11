@@ -208,6 +208,20 @@
     border-radius: 10px 16px 10px 16px;
 }
 
+.main-word{
+    display: flex;
+}
+#volu{
+    padding-top: 16px;
+    padding-left: 40px;
+    color: orangered;
+    cursor: pointer;
+    visibility: hidden;
+}
+#volu:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 0.5s;
+}
 .translator-main h3{
     font-weight: 900;
     cursor: pointer;

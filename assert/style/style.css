@@ -248,7 +248,7 @@
        width: 250px;
     }
     .translator-main button{
-        margin-left: -95;
+        margin-left: -105;
     }
     .translator-main button:hover{
         transform: scale(0.5);

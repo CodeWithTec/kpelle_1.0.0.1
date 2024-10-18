@@ -2,7 +2,7 @@
 
 let demoInput = document.getElementById("input_line");
 let timeTranslate = document.getElementById("trans");
-// let speaker = document.getElementById("volu");
+let speaker = document.getElementById("volu");
 let output_1 = document.getElementById("output");
 
 
@@ -670,3 +670,1020 @@ function volume_1(){
         document.getElementById("volu").style.visibility = 'visible';
     }
 };
+
+// audion function for the audion button
+//  this is to serve all the audion in the signle button
+
+
+function playAudio_1(){
+    let audio1 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio2 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio3 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio4 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio5 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio6 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio7 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio8 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio9 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio10 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio11 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio12 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio13 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio14 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio15 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio16 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio17 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio18 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio19 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio20 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio21 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio22 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio23 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio24 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio25 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio26 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio27 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio28 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio29 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio30 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio31 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio32 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio33 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio34 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio35 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio36 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio37 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio38 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio39 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio40 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio41 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio42 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio43 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio44 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio45 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio46 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio47 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio48 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio49 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio50 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio51 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio52 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio53 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio54 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio55 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio56 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio57 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio58 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio59 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio60 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio61 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio62 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio63 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio64 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio65 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio66 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio67 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio68 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio69 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio70 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio71 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio72 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio73 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio74 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio75 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio76 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio77 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio78 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio79 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio80 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio81 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio82 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio83 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio84 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio85 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio86 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio87 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio88 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio89 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio90 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio91 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio92 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio93 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio94 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio95 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio96 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio97 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio98 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio99 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio100 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio101 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio102 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio103 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio104 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio105 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio106 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio107 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio108 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio109 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio110 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio111 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio112 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio113 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio114 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio115 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio116 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio117 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio118 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio119 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio120 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio121 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio122 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio123 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio124 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio125 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio126 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio127 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio128 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio129 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio130 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio131 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio132 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio133 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio134 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio135 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio136 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio137 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio138 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio139 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio140 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio141 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio142 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio143 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio144 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio145 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio146 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio147 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio148 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio149 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio150 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio151 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio152 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio153 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio154 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio155 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio156 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio157 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio158 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio159 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio160 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio161 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio162 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio163 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio164 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio165 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio166 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio167 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio168 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio169 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio170 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio171 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio172 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio173 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio174 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio175 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio176 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio177 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio178 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio179 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio180 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio181 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio182 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio183 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio184 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio185 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio186 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio187 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio188 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio189 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio190 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio191 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio192 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio193 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio194 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio195 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio196 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio197 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio198 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio199 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio200 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio201 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio202 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio203 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio204 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio205 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio206 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio207 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio208 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio209 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio210 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio211 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio212 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio213 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio214 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio215 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio216 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio217 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio218 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio219 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio220 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio221 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio222 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio223 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio224 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio225 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio226 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio227 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio228 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio229 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio230 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio231 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio232 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio233 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio234 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio235 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio236 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio237 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio238 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio239 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio240 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio241 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio242 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio243 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio244 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio245 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio246 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio247 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio248 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio249 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio250 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio251 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio252 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio253 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio254 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio255 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio256 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio257 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio258 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio259 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio260 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio261 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio262 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio263 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio264 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio265 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio266 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio267 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio268 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio269 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio270 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio271 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio272 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio273 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio274 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio275 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio276 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio277 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio278 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio279 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio280 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio281 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio282 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio283 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio284 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio285 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio286 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio287 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio288 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio289 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio290 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio291 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio292 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio293 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio294 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio295 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio296 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio297 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio298 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio299 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio300 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio301 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio302 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio303 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio304 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio305 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio306 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio307 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio308 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio309 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio310 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio311 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio312 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio313 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio314 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio315 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio316 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio317 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio318 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio319 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio320 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio321 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio322 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio323 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio324 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio325 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio326 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio327 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio328 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio329 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio330 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio331 = new Audio('assert/audio/Translate.tt/.mp3');
+    let audio332 = new Audio('assert/audio/Translate.tt/.mp3');
+
+
+
+
+
+    if(demoInput.value.toLowerCase() == "leaf"){
+        audio1.play();
+    }else if(demoInput.value.toLowerCase() == "chicken"){
+        audio2.play();
+    }else if(demoInput.value.toLowerCase() == "orange"){
+        audio3.play();
+    }else if(demoInput.value.toLowerCase() == "tread"){
+        audio4.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio5.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio6.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio7.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio8.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio9.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio10.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio11.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio13.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio14.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio15.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio16.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio17.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio18.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio19.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio20.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio21.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio22.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio23.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio24.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio25.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio26.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio27.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio28.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio29.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio30.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio31.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio32.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio33.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio34.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio35.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio36.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio37.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio38.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio39.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio40.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio41.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio42.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio43.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio44.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio45.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio46.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio47.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio48.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio49.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio50.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio51.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio52.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio53.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio54.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio55.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio56.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio57.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio58.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio59.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio60.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio61.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio62.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio63.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio64.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio65.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio66.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio67.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio68.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio69.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio70.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio71.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio72.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio73.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio74.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio75.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio76.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio77.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio78.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio79.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio80.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio81.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio82.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio83.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio84.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio85.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio86.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio87.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio88.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio89.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio90.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio91.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio92.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio93.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio94.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio95.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio96.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio97.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio98.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio99.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio100.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio102.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio103.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio104.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio105.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio106.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio107.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio108.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio109.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio120.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio121.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio122.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio123.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio124.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio125.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio126.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio127.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio128.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio129.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio130.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio131.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio132.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio133.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio134.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio135.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio136.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio137.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio138.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio139.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio140.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio141.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio142.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio143.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio144.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio145.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio146.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio147.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio148.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio149.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio150.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio151.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio152.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio153.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio154.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio155.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio156.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio157.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio158.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio159.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio160.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio161.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio162.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio163.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio164.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio165.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio166.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio167.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio168.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio169.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio170.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio171.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio172.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio173.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio174.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio175.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio176.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio177.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio178.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio179.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio180.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio181.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio182.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio183.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio184.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio185.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio186.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio187.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio188.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio189.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio190.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio191.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio192.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio193.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio194.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio195.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio196.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio197.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio198.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio199.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio200.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio201.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio203.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio204.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio205.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio206.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio207.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio208.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio209.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio210.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio211.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio212.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio213.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio214.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio215.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio216.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio217.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio218.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio219.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio220.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio221.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio222.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio223.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio224.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio225.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio226.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio227.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio228.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio229.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio230.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio231.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio232.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio233.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio234.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio235.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio236.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio237.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio238.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio239.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio240.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio241.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio242.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio243.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio244.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio245.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio246.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio247.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio248.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio249.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio250.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio251.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio252.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio253.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio254.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio255.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio256.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio257.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio258.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio259.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio260.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio261.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio262.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio263.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio264.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio265.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio266.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio267.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio268.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio269.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio270.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio271.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio272.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio273.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio274.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio275.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio276.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio277.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio278.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio279.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio280.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio281.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio282.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio283.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio284.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio285.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio286.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio287.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio288.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio289.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio290.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio291.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio292.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio293.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio294.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio295.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio296.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio297.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio298.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio299.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio300.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio301.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio302.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio303.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio304.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio305.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio306.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio307.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio308.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio309.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio310.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio311.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio312.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio313.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio314.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio315.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio316.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio317.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio318.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio319.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio320.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio321.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio322.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio323.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio324.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio325.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio326.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio327.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio328.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio329.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio330.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio331.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio332.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio333.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio334.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio335.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio336.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio337.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio338.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio339.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio340.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio341.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio342.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio343.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio344.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio345.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio346.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio347.play();
+    }else if(demoInput.value.toLowerCase() == ""){
+        audio348.play();
+    }
+};
+
+speaker.addEventListener("click", playAudio_1);

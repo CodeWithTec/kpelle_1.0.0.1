@@ -43,13 +43,13 @@ let audioFunction_2 = () =>{
 audio_B.addEventListener("click", audioFunction_2);
 
 let audioFunction_3 = () =>{
-    let audio_2 = new Audio("assert/audio/A-Z/Bb.mp3");
+    let audio_2 = new Audio("assert/audio/A-Z/letter-Bb.mp3");
     audio_2.play();
 }
 audio_Bb.addEventListener("click", audioFunction_3);
 
 let audioFunction_4 = () => {
-    let audio_3 = new Audio("assert/audio/A-Z/Cc.mp3");
+    let audio_3 = new Audio("assert/audio/A-Z/letter-Cc.mp3");
     audio_3.play();
 }
 audio_C.addEventListener("click", audioFunction_4);
@@ -85,7 +85,7 @@ let audioFunction_9 = () => {
 audio_G.addEventListener("click", audioFunction_9);
 
 let audioFunction_10 = () => {
-    let audio_9 = new Audio("assert/audio/A-Z/Nn.mp3");
+    let audio_9 = new Audio("assert/audio/A-Z/letter-Nn.mp3");
     audio_9.play();
 }
 audio_H.addEventListener("click", audioFunction_10);

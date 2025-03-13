@@ -127,6 +127,7 @@
     border-radius: 50px;
     margin-top: 55px;
     height: 450px;
+    cursor: pointer;
     /* filter: drop-shadow(7px 5px #000); */ 
 }
 

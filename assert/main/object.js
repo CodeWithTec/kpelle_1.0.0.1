@@ -37,7 +37,7 @@ let objectFunction_3 = () =>{
 object_3.addEventListener("click", objectFunction_3);
 
 let objectFunction_4 = () =>{
-    let audio_o4 = new Audio("assert/audio/objects/kitchen .mp3");
+    let audio_o4 = new Audio("assert/audio/objects/kitchen.mp3");
     audio_o4.play();
 }
 object_4.addEventListener("click", objectFunction_4);

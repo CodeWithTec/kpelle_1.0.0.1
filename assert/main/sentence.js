@@ -181,7 +181,7 @@ let sentFunction_21 = () => {
 sentence_21.addEventListener("click", sentFunction_21);
 
 let sentFunction_22 = () => {
-    let mAudio_22 = new Audio("assert/audio/Sentences/My_name is.mp3");
+    let mAudio_22 = new Audio("assert/audio/Sentences/My Name is Kollie.mp3");
     mAudio_22.play();
 }
 sentence_22.addEventListener("click", sentFunction_22);
@@ -195,7 +195,7 @@ sentence_23.addEventListener("click", sentFunction_23);
 
 
 let sentFunction_24 = () => {
-    let mAudio_24 = new Audio("assert/audio/Sentences/My_name is.mp3");
+    let mAudio_24 = new Audio("assert/audio/Sentences/My Name is Togbah.mp3");
     mAudio_24.play();
 }
 sentence_24.addEventListener("click", sentFunction_24);
@@ -209,7 +209,7 @@ sentence_25.addEventListener("click", sentFunction_25);
 
 
 let sentFunction_26 = () => {
-    let mAudio_26 = new Audio("assert/audio/Sentences/i came from.mp3");
+    let mAudio_26 = new Audio("assert/audio/Sentences/I came from Bong County.mp3");
     mAudio_26.play();
 }
 sentence_26.addEventListener("click", sentFunction_26);
@@ -221,7 +221,7 @@ let sentFunction_27 = () => {
 sentence_27.addEventListener("click", sentFunction_27);
 
 let sentFunction_28 = () => {
-    let mAudio_28 = new Audio("assert/audio/Sentences/my_mother name is .mp3");
+    let mAudio_28 = new Audio("assert/audio/Sentences/My mother name is Oretha.mp3");
     mAudio_28.play();
 }
 sentence_28.addEventListener("click", sentFunction_28);
@@ -233,7 +233,7 @@ let sentFunction_29 = () => {
 sentence_29.addEventListener("click", sentFunction_29);
 
 let sentFunction_30 = () => {
-    let mAudio_30 = new Audio("assert/audio/Sentences/my_mother name is .mp3");
+    let mAudio_30 = new Audio("assert/audio/Sentences/My Mother name is Mamie.mp3");
     mAudio_30.play();
 }
 sentence_30.addEventListener("click", sentFunction_30);
@@ -247,7 +247,7 @@ sentence_31.addEventListener("click", sentFunction_31);
 
 
 let sentFunction_32 = () => {
-    let mAudio_32 = new Audio("assert/audio/Sentences/my_father name is.mp3");
+    let mAudio_32 = new Audio("assert/audio/Sentences/My Father name is Flomo.mp3");
     mAudio_32.play();
 }
 sentence_32.addEventListener("click", sentFunction_32);
@@ -260,7 +260,7 @@ let sentFunction_33 = () => {
 sentence_33.addEventListener("click", sentFunction_33);
 
 let sentFunction_34 = () => {
-    let mAudio_34 = new Audio("assert/audio/Sentences/my_father name is.mp3");
+    let mAudio_34 = new Audio("assert/audio/Sentences/My Father name is Sumo.mp3");
     mAudio_34.play();
 }
 sentence_34.addEventListener("click", sentFunction_34);

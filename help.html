@@ -16,7 +16,7 @@
         <!-- navbar section -->
         <nav class="navbar navbar-expand-lg fixed-top">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Kpelle-Lang</a>
+            <a class="navbar-brand" href="index.html">Kpelle-Lang 1.0 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="fa-solid fa-bars" id="bars" onclick="openBtn()"></span>
               <span class="fa-solid fa-xmark" id="x-mark" onclick="closeBtn()"></span>
@@ -55,30 +55,34 @@
 
     <!-- Start help section  -->
     <section class="help">
-      <div class="container-fluid help-section bg-dark">
+      <div class="container-fluid help-section">
         <div class="container">
           <div class="row ">
           <div class="col-lg-12 pt-5 text-center">
-            <div class="page-title pt-3">
-              <h1 class="title">Ask for Help</h1>
-              <div class="help-title">If you are stuck with a word or concept, feel free to ask for help! You can use our 24/7 response team through the below form</div>
-            <div class="help-input">
-              <form action="">
-              <h6>How can we help you?</h6>
-              <input type="text" name="request" placeholder="Enter your request">
-              <button class="btn btn-primary" type="button">Send</button>
+            <div class="page-title-1 pt-3">
+              <h1 class="title-help"><b>Feedback</b></h1>
+              <div class="help-title">User experience and Feedback is highly needed for the platform improvement.</div>
+            <div class="help-input py-2">
+              <form action="https://api.web3forms.com/submit" method="POST">
+              <h6>Send your FeedBack</h6>
+              <div class="contact-info">
+                <input type="hidden" name="access_key" value="d265d0a0-457c-40bd-bfbd-faea1a7a5e26">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" id="" class="contact-inputs" placeholder="Message"></textarea>
+                <button type="submit" class="button">Send Message</button>
+              </div>
             </form>
             </div>
             </div>
           </div>
           </div>
+          
         </div>
       </div>
 </section>
 
 <!-- End of the Help Section -->
-
-
 <!-- Footer Start -->
  
 <footer>
